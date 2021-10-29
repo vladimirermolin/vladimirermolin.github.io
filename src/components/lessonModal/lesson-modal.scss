@@ -1,0 +1,14 @@
+.lesson-modal-frame {
+  width: 1000px;
+  height: 563px;
+
+  @include tablet {
+    width: 760px;
+    height: 428px;
+  }
+
+  @include mobile {
+    width: 320px;
+    height: 180px;
+  }
+}
